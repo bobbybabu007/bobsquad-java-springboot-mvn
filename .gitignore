@@ -13,11 +13,23 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
+### IntelliJ IDEA and Compiled Class file ###
 .idea
 *.iws
 *.iml
 *.ipr
+*.class
+*.log
+
+### Package Files ###
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar
+*.tar.gz
+*.rar
 
 ### NetBeans ###
 /nbproject/private/
@@ -31,3 +43,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### VM Crash Logs ###
+hs_err_pid*
+.DS_Store

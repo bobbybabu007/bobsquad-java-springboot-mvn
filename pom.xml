@@ -14,7 +14,7 @@
 	<name>bobbylive-2.4.4-mvn-base</name>
 	<description>Java based Test App for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
