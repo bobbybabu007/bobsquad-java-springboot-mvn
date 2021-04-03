@@ -37,7 +37,7 @@
     		<snapshotRepository>
       			<id>bobsquad-maven-snapshot-local</id>
       			<name>BobSquad-Snapshot-Repository</name>
-      			<url>https://bobsquad.jfrog.io/artifactory/bobsquad-maven-snapshot-local/</url>
+      			<url>https://bobsquad.jfrog.io/artifactory/bobsquad-maven-snapshots-local/</url>
    		</snapshotRepository>
         </distributionManagement>
 	
