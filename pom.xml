@@ -28,17 +28,17 @@
 		<java.version>8</java.version>
 	</properties>
 
-	<distributionManagement>
-          	<repository>
-      			<id>bobsquad-maven-releases-local</id>
-      			<name>BobSquad-Releases-Repository</name>
-      			<url>https://bobsquad.jfrog.io/artifactory/bobsquad-maven-releases-local/</url>
-    		</repository>
-    		<snapshotRepository>
-      			<id>bobsquad-maven-snapshot-local</id>
-      			<name>BobSquad-Snapshot-Repository</name>
-      			<url>https://bobsquad.jfrog.io/artifactory/bobsquad-maven-snapshots-local/</url>
-   		</snapshotRepository>
+        <distributionManagement>
+                <repository>
+                        <id>central</id>
+                        <name>a0pacqekuxce2-artifactory-primary-0-releases</name>
+                        <url>https://bobsquad.jfrog.io/artifactory/bobsquad-maven-snapshots-local</url>
+                </repository>
+                <snapshotRepository>
+                        <id>snapshots</id>
+                        <name>a0pacqekuxce2-artifactory-primary-0-snapshots</name>
+                        <url>https://bobsquad.jfrog.io/artifactory/bobsquad-maven-snapshots-local</url>
+                </snapshotRepository>
         </distributionManagement>
 	
 	<dependencies>
